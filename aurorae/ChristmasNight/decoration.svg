@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Christmas Night aurorae frame. Canvas is 130x130: a 6.4px frame border
+     around a 22px title bar, with 28.38px corner pieces and a 73.24px middle. -->
+<svg
+   id="svg-decoration"
+   width="130"
+   height="130"
+   viewBox="0 0 130 130"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs-decoration">
+    <linearGradient id="titlebar-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop id="title-top" offset="0" stop-color="#242b37" />
+      <stop id="title-bottom" offset="1" stop-color="#1a1f28" />
+    </linearGradient>
+    <linearGradient id="border-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop id="border-top" offset="0" stop-color="#171b23" />
+      <stop id="border-bottom" offset="1" stop-color="#10131a" />
+    </linearGradient>
+    <!-- Proportional gradient for maximized windows: the center element is
+         stretched over the whole window, so the gold edge and title fade are
+         encoded as fractions of the window height. The title area is 36px,
+         hence the fade at 0.036 and the 1.4px gold edge at 0.0014. -->
+    <linearGradient id="maximized-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop id="maximized-accent" offset="0" stop-color="#ecb858" />
+      <stop id="maximized-title-top" offset="0.0014" stop-color="#242b37" />
+      <stop id="maximized-title-bottom" offset="0.036" stop-color="#1a1f28" />
+      <stop id="maximized-background" offset="1" stop-color="#1a1f28" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top edge: border strip, gold accent line and title bar background -->
+  <g id="decoration-top">
+    <path id="top-border" fill="url(#border-gradient)"
+          d="M 28.38,0 H 101.62 V 6.4 H 28.38 Z" />
+    <rect id="top-accent" x="28.38" y="0.8" width="73.24" height="1.4"
+          fill="#ecb858" opacity="0.85" />
+    <rect id="top-title" x="28.38" y="6.4" width="73.24" height="22"
+          fill="url(#titlebar-gradient)" />
+  </g>
+
+  <!-- Rounded corner pieces (border strip + end of the title bar) -->
+  <g id="decoration-topleft">
+    <path id="topleft-border" fill="url(#border-gradient)"
+          d="M 0,28.38 V 6.4 Q 0,0 6.4,0 H 28.38 V 6.4 H 6.4 V 28.38 Z" />
+    <rect id="topleft-title" x="6.4" y="6.4" width="21.98" height="22"
+          fill="url(#titlebar-gradient)" />
+    <rect id="topleft-accent" x="3" y="0.8" width="25.38" height="1.4"
+          fill="#ecb858" opacity="0.85" />
+  </g>
+
+  <g id="decoration-topright">
+    <path id="topright-border" fill="url(#border-gradient)"
+          d="M 130,28.38 V 6.4 Q 130,0 123.6,0 H 101.62 V 6.4 H 123.6 V 28.38 Z" />
+    <rect id="topright-title" x="101.62" y="6.4" width="21.98" height="22"
+          fill="url(#titlebar-gradient)" />
+    <rect id="topright-accent" x="101.62" y="0.8" width="25.38" height="1.4"
+          fill="#ecb858" opacity="0.85" />
+  </g>
+
+  <!-- Side and bottom frame strips -->
+  <g id="decoration-left">
+    <rect id="left-border" x="0" y="28.38" width="6.4" height="73.24"
+          fill="url(#border-gradient)" />
+  </g>
+
+  <g id="decoration-right">
+    <rect id="right-border" x="123.6" y="28.38" width="6.4" height="73.24"
+          fill="url(#border-gradient)" />
+  </g>
+
+  <g id="decoration-bottom">
+    <rect id="bottom-border" x="28.38" y="123.6" width="73.24" height="6.4"
+          fill="url(#border-gradient)" />
+  </g>
+
+  <g id="decoration-bottomleft">
+    <path id="bottomleft-border" fill="url(#border-gradient)"
+          d="M 0,101.62 V 123.6 Q 0,130 6.4,130 H 28.38 V 123.6 H 6.4 V 101.62 Z" />
+  </g>
+
+  <g id="decoration-bottomright">
+    <path id="bottomright-border" fill="url(#border-gradient)"
+          d="M 130,101.62 V 123.6 Q 130,130 123.6,130 H 101.62 V 123.6 H 123.6 V 101.62 Z" />
+  </g>
+
+  <!-- Background behind the client area -->
+  <g id="decoration-center">
+    <rect id="center-background" x="28.38" y="28.38" width="73.24" height="73.24"
+          fill="#1a1f28" />
+  </g>
+
+  <!-- Maximized/tiled windows: the engine paints only the center element
+       (NoBorder), stretched over the whole window. -->
+  <g id="decoration-maximized-center">
+    <rect id="maximized-center-background" x="28.38" y="28.38" width="73.24" height="73.24"
+          fill="url(#maximized-gradient)" />
+  </g>
+</svg>

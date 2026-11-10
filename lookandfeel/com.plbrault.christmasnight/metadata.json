@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "pier-luc@brault.me",
+                "Name": "Pier-Luc Brault"
+            }
+        ],
+        "Category": "",
+        "Description": "A dark and cozy winter-night global theme: frosted night-blue panels, snow-white text and warm pine, cranberry and gold accents. Wallpaper is left untouched.",
+        "Id": "com.plbrault.christmasnight",
+        "License": "GPL-3.0-or-later",
+        "Name": "Christmas Night",
+        "Version": "1.0",
+        "Website": ""
+    }
+}

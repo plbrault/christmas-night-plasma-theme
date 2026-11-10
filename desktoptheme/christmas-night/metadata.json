@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/DesktopTheme",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "pier-luc@brault.me",
+                "Name": "Pier-Luc Brault"
+            }
+        ],
+        "Category": "",
+        "Description": "A dark and cozy winter-night theme with snow-white text, pine green, cranberry and gold accents",
+        "Id": "christmas-night",
+        "License": "GPL-3.0-or-later",
+        "Name": "Christmas Night",
+        "Version": "1.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "5.0"
+}

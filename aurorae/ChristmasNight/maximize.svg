@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Christmas Night aurorae button: maximize -->
+<svg width="132" height="44" viewBox="0 0 132 44" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+  <g id="active-center" transform="translate(0,0)">
+    <circle cx="11" cy="11" r="9" fill="#c99e44"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="hover-center" transform="translate(22,0)">
+    <circle cx="11" cy="11" r="9" fill="#ecb858"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="pressed-center" transform="translate(44,0)">
+    <circle cx="11" cy="11" r="9" fill="#8a6a2c"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="inactive-center" transform="translate(66,0)">
+    <circle cx="11" cy="11" r="9" fill="#4a525e"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="hover-inactive-center" transform="translate(88,0)">
+    <circle cx="11" cy="11" r="9" fill="#5a6472"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="pressed-inactive-center" transform="translate(110,0)">
+    <circle cx="11" cy="11" r="9" fill="#3c434d"/>
+    <rect x="6.6" y="6.6" width="8.8" height="8.8" rx="1.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

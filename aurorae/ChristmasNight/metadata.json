@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "pier-luc@brault.me",
+                "Name": "Pier-Luc Brault"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [],
+        "EnabledByDefault": true,
+        "Id": "ChristmasNight",
+        "License": "GPL-3.0-or-later",
+        "Name": "Christmas Night",
+        "Description": "Aurorae window decoration with snowflake-styled buttons on frosted night-blue titlebars",
+        "Version": "1.0"
+    }
+}

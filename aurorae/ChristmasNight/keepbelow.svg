@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Christmas Night aurorae button: keepbelow -->
+<svg width="132" height="44" viewBox="0 0 132 44" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+  <g id="active-center" transform="translate(0,0)">
+    <circle cx="11" cy="11" r="9" fill="#4a7ba6"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="hover-center" transform="translate(22,0)">
+    <circle cx="11" cy="11" r="9" fill="#5f96c4"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="pressed-center" transform="translate(44,0)">
+    <circle cx="11" cy="11" r="9" fill="#35587a"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#f2f6fb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="inactive-center" transform="translate(66,0)">
+    <circle cx="11" cy="11" r="9" fill="#4a525e"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="hover-inactive-center" transform="translate(88,0)">
+    <circle cx="11" cy="11" r="9" fill="#5a6472"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="pressed-inactive-center" transform="translate(110,0)">
+    <circle cx="11" cy="11" r="9" fill="#3c434d"/>
+    <path d="M 6.8,7.6 L 11,11.6 L 15.2,7.6" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 6.8,11.4 L 11,15.4 L 15.2,11.4" stroke="#b6c0cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
